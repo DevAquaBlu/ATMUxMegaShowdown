@@ -206,7 +206,7 @@
       "requirements": [
         {
           "variant": "held_item",
-          "itemCondition": "minecraft:amethyst_shard"
+          "itemCondition": "antithetic:revealglass"
         }          
       ]
     }
@@ -258,7 +258,7 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "minecraft:amethyst_shard"
+              "itemCondition": "antithetic:revealglass"
             }          
           ]
         }

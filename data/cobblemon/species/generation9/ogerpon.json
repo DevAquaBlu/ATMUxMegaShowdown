@@ -43,6 +43,31 @@
   "experienceGroup": "slow",
   "catchRate": 5,
   "eggCycles": 10,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:nether_star",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 5.0
+      }
+    ]
+  },
   "baseFriendship": 50,
   "baseScale": 0.7,
   "hitbox": {
@@ -68,31 +93,6 @@
         "canBreatheUnderwater": false
       }
     }
-  },
-  "drops": {
-    "amount": 5,
-    "entries": [
-      {
-        "item": "cobblemon:rare_candy",
-        "quantityRange": "3-6"
-      },
-      {
-        "item": "minecraft:nether_star",
-        "percentage": 50.0
-      },
-      {
-        "item": "cobblemon:miracle_seed",
-        "percentage": 50.0
-      },
-      {
-        "item": "cobblemon:ability_capsule",
-        "percentage": 25.0
-      },
-      {
-        "item": "cobblemon:ability_patch",
-        "percentage": 5.0
-      }
-    ]
   },
   "moves": [
     "1:vinewhip",
@@ -196,7 +196,7 @@
       "requirements": [
         {
           "variant": "held_item",
-          "itemCondition": "cobblemon:mystic_water"
+          "itemCondition": "antithetic:wellspringmask"
         }
       ]
     },
@@ -209,7 +209,7 @@
       "requirements": [
         {
           "variant": "held_item",
-          "itemCondition": "cobblemon:charcoal_stick"
+          "itemCondition": "antithetic:hearthflamemask"
         }
       ]
     },
@@ -222,7 +222,7 @@
       "requirements": [
         {
           "variant": "held_item",
-          "itemCondition": "cobblemon:hard_stone"
+          "itemCondition": "antithetic:cornerstonemask"
         }
       ]
     }
@@ -267,7 +267,7 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "cobblemon:miracle_seed"
+              "itemCondition": "antithetic:dnasplicer"
             }
           ]
         },
@@ -280,7 +280,7 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "cobblemon:charcoal_stick"
+              "itemCondition": "antithetic:hearthflamemask"
             }
           ]
         },
@@ -293,7 +293,7 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "cobblemon:hard_stone"
+              "itemCondition": "antithetic:cornerstonemask"
             }
           ]
         }
@@ -339,7 +339,7 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "cobblemon:miracle_seed"
+              "itemCondition": "antithetic:dnasplicer"
             }
           ]
         },
@@ -352,7 +352,7 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "cobblemon:mystic_water"
+              "itemCondition": "antithetic:wellspringmask"
             }
           ]
         },
@@ -365,7 +365,7 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "cobblemon:hard_stone"
+              "itemCondition": "antithetic:cornerstonemask"
             }
           ]
         }
@@ -411,7 +411,7 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "cobblemon:miracle_seed"
+              "itemCondition": "antithetic:dnasplicer"
             }
           ]
         },
@@ -424,7 +424,7 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "cobblemon:mystic_water"
+              "itemCondition": "antithetic:wellspringmask"
             }
           ]
         },
@@ -437,7 +437,7 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "cobblemon:charcoal_stick"
+              "itemCondition": "antithetic:hearthflamemask"
             }
           ]
         }

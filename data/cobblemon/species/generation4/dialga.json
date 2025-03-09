@@ -238,7 +238,7 @@
       "requirements": [
         {
           "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
+          "itemCondition": "antithetic:adamantorb"
         }          
       ]
     }
@@ -388,7 +388,7 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
+              "itemCondition": "antithetic:dnasplicer"
             }
           ]
         }

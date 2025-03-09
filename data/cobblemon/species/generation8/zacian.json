@@ -42,29 +42,6 @@
   "experienceGroup": "slow",
   "catchRate": 10,
   "eggCycles": 120,
-  "baseFriendship": 0,
-  "dynamaxBlocked": true,
-  "baseScale": 0.8,
-  "hitbox": {
-    "width": 3,
-    "height": 2.75,
-    "fixed": false
-  },
-  "behaviour": {
-    "moving": {
-      "canLook": false,
-      "walk": {
-        "walkSpeed": 0.5,
-        "canWalk": true,
-        "avoidsLand": false
-      },
-      "swim": {
-        "swimSpeed": 0.5,
-        "canSwimInWater": false,
-        "canBreatheUnderwater": false
-      }
-    }
-  },
   "drops": {
     "amount": 5,
     "entries": [
@@ -90,6 +67,32 @@
       }
     ]
   },
+  "baseFriendship": 0,
+  "dynamaxBlocked": true,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 2,
+    "height": 3,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "walkSpeed": 0.5,
+        "canWalk": true,
+        "avoidsLand": false
+      },
+    "fly": {
+      "canFly": false
+    },
+    "swim": {
+      "swimSpeed": 0.5,
+      "canSwimInWater": false,
+      "canBreatheUnderwater": false
+    }
+  }
+},
   "moves": [
     "1:sacredsword",
     "1:quickguard",
@@ -196,7 +199,7 @@
       "requirements": [
         {
           "variant": "held_item",
-          "itemCondition": "minecraft:netherite_sword"
+          "itemCondition": "antithetic:rustedsword"
         }
       ]
     }
@@ -239,7 +242,7 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "minecraft:netherite_sword"
+              "itemCondition": "antithetic:rustedsword"
             }
           ]
         }

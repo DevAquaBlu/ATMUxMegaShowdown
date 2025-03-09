@@ -321,7 +321,7 @@
         },
         {
           "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
+          "itemCondition": "antithetic:mewtwonite_x"
         }          
       ]
     },
@@ -342,7 +342,7 @@
         },
         {
           "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
+          "itemCondition": "antithetic:mewtwonite_y"
         }          
       ]
     },
@@ -419,7 +419,7 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
+              "itemCondition": "antithetic:dnasplicer"
             }
           ]
         }
@@ -474,9 +474,56 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
+              "itemCondition": "antithetic:dnasplicer"
             }
           ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Shadow",
+      "primaryType": "psychic",
+      "secondaryType": "ghost",
+      "maleRatio": -1,
+      "height": 20,
+      "weight": 1220,
+      "pokedex": [],
+      "labels": [
+        "gen1",
+        "legendary",
+        "restricted"
+      ],
+      "aspects": [
+        "shadow"
+      ],
+      "abilities": [
+        "shadowshield",
+        "h:shadowshield"
+      ],
+      "baseStats": {
+        "hp": 116,
+        "attack": 120,
+        "defence": 100,
+        "special_attack": 164,
+        "special_defence": 100,
+        "speed": 150
+      },
+      "baseExperienceYield": 390,
+      "dynamaxBlocked": false,
+      "evolutions": [
+        {
+          "id": "mewtwoshadow_mewtwo",
+          "variant": "level_up",
+          "result": "mewtwo shadow=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+		  {
+              "variant": "held_item",
+              "itemCondition": "antithetic:dnasplicer"
+            }
+		  ]
         }
       ],
       "battleOnly": false
@@ -488,9 +535,7 @@
       "maleRatio": -1,
       "height": 20,
       "weight": 1220,
-      "pokedex": [
-        "cobblemon.species.mewtwo-armored.desc"
-      ],
+      "pokedex": [],
       "labels": [
         "gen1",
         "legendary",
@@ -520,44 +565,14 @@
           "result": "mewtwo armored=false",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": []
+          "requirements": [
+		  {
+              "variant": "held_item",
+              "itemCondition": "antithetic:dnasplicer"
+            }
+		  ]
         }
       ],
-      "battleOnly": false
-    },
-    {
-      "name": "Shadow",
-      "primaryType": "psychic",
-      "secondaryType": "ghost",
-      "maleRatio": -1,
-      "height": 20,
-      "weight": 1220,
-      "pokedex": [
-        "cobblemon.species.mewtwo-shadow.desc"
-      ],
-      "labels": [
-        "gen1",
-        "legendary",
-        "restricted"
-      ],
-      "aspects": [
-        "shadow"
-      ],
-      "abilities": [
-        "shadowshield",
-        "h:shadowshield"
-      ],
-      "baseStats": {
-        "hp": 116,
-        "attack": 120,
-        "defence": 100,
-        "special_attack": 164,
-        "special_defence": 100,
-        "speed": 150
-      },
-      "baseExperienceYield": 390,
-      "dynamaxBlocked": false,
-      "evolutions": [],
       "battleOnly": false
     }
   ]

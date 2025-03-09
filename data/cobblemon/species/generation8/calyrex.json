@@ -43,13 +43,6 @@
   "experienceGroup": "slow",
   "catchRate": 3,
   "eggCycles": 120,
-  "baseFriendship": 120,
-  "baseScale": 0.7,
-  "hitbox": {
-    "width": 1.15,
-    "height": 2.2,
-    "fixed": false
-  },
   "drops": {
     "amount": 5,
     "entries": [
@@ -74,6 +67,13 @@
         "percentage": 5.0
       }
     ]
+  },
+  "baseFriendship": 120,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
   },
   "moves": [
     "1:pound",
@@ -180,7 +180,7 @@
       "id": "calyrex_calyrexice",
       "variant": "level_up",
       "result": "calyrex king_steed=ice",
-      "consumeHeldItem": true,
+      "consumeHeldItem": false,
       "learnableMoves": ["glaciallance"],
       "requirements": [
         {
@@ -190,7 +190,7 @@
         },
         {
           "variant": "held_item",
-          "itemCondition": "minecraft:saddle"
+          "itemCondition": "antithetic:reinsofunity"
         }
       ]
     },
@@ -198,7 +198,7 @@
       "id": "calyrex_calyrexshadow",
       "variant": "level_up",
       "result": "calyrex king_steed=shadow",
-      "consumeHeldItem": true,
+      "consumeHeldItem": false,
       "learnableMoves": ["astralbarrage"],
       "requirements": [
         {
@@ -208,7 +208,7 @@
         },
         {
           "variant": "held_item",
-          "itemCondition": "minecraft:saddle"
+          "itemCondition": "antithetic:reinsofunity"
         }
       ]
     }
@@ -221,12 +221,7 @@
       "maleRatio": -1,
       "height": 24,
       "weight": 8091,
-      "baseScale": 0.9,
-      "hitbox": {
-        "width": 2,
-        "height": 3.5,
-        "fixed": false
-      },
+      "baseScale": 1,
       "pokedex": [
         "cobblemon.species.calyrex-ice.desc"
       ],
@@ -416,7 +411,20 @@
         "tutor:wonderroom",
         "tutor:zenheadbutt"
       ],
-      "evolutions": [],
+      "evolutions": [
+	  {
+      "id": "calyrexice_calyrex",
+      "variant": "level_up",
+      "result": "calyrex king_steed=base",
+      "consumeHeldItem": false,
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "antithetic:dnasplicer"
+        }
+		]
+	  }
+	  ],
       "battleOnly": false
     },
     {
@@ -426,12 +434,7 @@
       "maleRatio": -1,
       "height": 24,
       "weight": 536,
-      "baseScale": 0.9,
-      "hitbox": {
-        "width": 2,
-        "height": 3.5,
-        "fixed": false
-      },
+      "baseScale": 1,
       "pokedex": [
         "cobblemon.species.calyrex-shadow.desc"
       ],
@@ -609,7 +612,20 @@
         "tutor:wonderroom",
         "tutor:zenheadbutt"
       ],
-      "evolutions": [],
+      "evolutions": [
+	  {
+      "id": "calyrexshadow_calyrex",
+      "variant": "level_up",
+      "result": "calyrex king_steed=base",
+      "consumeHeldItem": false,
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "antithetic:dnasplicer"
+        }
+		]
+	  }
+	  ],
       "battleOnly": false
     }
   ]

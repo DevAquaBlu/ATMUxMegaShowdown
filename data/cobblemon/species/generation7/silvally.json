@@ -1,5 +1,4 @@
 {
-  "implemented": true,
   "nationalPokedexNumber": 773,
   "name": "Silvally",
   "primaryType": "normal",
@@ -13,10 +12,10 @@
     "gen7",
     "legendary"
   ],
-  "aspects": [],
+  "aspects": ["normal"],
   "abilities": [
-    "adaptability",
-    "h:adaptability"
+    "rkssystem",
+    "h:rkssystem"
   ],
   "eggGroups": [
     "undiscovered"
@@ -42,10 +41,10 @@
   "catchRate": 3,
   "eggCycles": 120,
   "baseFriendship": 0,
-  "baseScale": 0.9,
+  "baseScale": 1,
   "hitbox": {
-    "width": 1.6,
-    "height": 2.5,
+    "width": 1,
+    "height": 1,
     "fixed": false
   },
   "moves": [
@@ -81,11 +80,9 @@
     "egg:razorwind",
     "tm:aerialace",
     "tm:airslash",
-    "tm:confide",
     "tm:crunch",
     "tm:defog",
     "tm:doubleedge",
-    "tm:doubleteam",
     "tm:dracometeor",
     "tm:dragonclaw",
     "tm:endure",
@@ -95,12 +92,10 @@
     "tm:flamecharge",
     "tm:flamethrower",
     "tm:flashcannon",
-    "tm:frustration",
     "tm:gigaimpact",
     "tm:grasspledge",
     "tm:hail",
     "tm:heatwave",
-    "tm:hiddenpower",
     "tm:hyperbeam",
     "tm:hypervoice",
     "tm:icebeam",
@@ -119,11 +114,9 @@
     "tm:psychicfangs",
     "tm:raindance",
     "tm:rest",
-    "tm:return",
     "tm:reversal",
     "tm:roar",
     "tm:rockslide",
-    "tm:round",
     "tm:sandstorm",
     "tm:scaryface",
     "tm:selfdestruct",
@@ -132,13 +125,11 @@
     "tm:signalbeam",
     "tm:sleeptalk",
     "tm:snarl",
-    "tm:snore",
     "tm:steelbeam",
     "tm:steelwing",
     "tm:substitute",
     "tm:sunnyday",
     "tm:surf",
-    "tm:swagger",
     "tm:swift",
     "tm:swordsdance",
     "tm:tailwind",
@@ -148,7 +139,6 @@
     "tm:thunderbolt",
     "tm:thunderfang",
     "tm:thunderwave",
-    "tm:toxic",
     "tm:triattack",
     "tm:uturn",
     "tm:workup",
@@ -194,228 +184,228 @@
   ],
   "preEvolution": "typenull",
   "evolutions": [
-    {
-      "id": "silvally_silvallyfighting",
-      "variant": "level_up",
-      "result": "silvally rks_memory=fighting",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:black_belt"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallyflying",
-      "variant": "level_up",
-      "result": "silvally rks_memory=flying",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:sharp_beak"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallypoison",
-      "variant": "level_up",
-      "result": "silvally rks_memory=poison",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:poison_barb"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallyground",
-      "variant": "level_up",
-      "result": "silvally rks_memory=ground",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:soft_sand"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallyrock",
-      "variant": "level_up",
-      "result": "silvally rks_memory=rock",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:hard_stone"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallybug",
-      "variant": "level_up",
-      "result": "silvally rks_memory=bug",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:silver_powder"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallyghost",
-      "variant": "level_up",
-      "result": "silvally rks_memory=ghost",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:spell_tag"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallysteel",
-      "variant": "level_up",
-      "result": "silvally rks_memory=steel",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:metal_coat"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallyfire",
-      "variant": "level_up",
-      "result": "silvally rks_memory=fire",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:charcoal_stick"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallywater",
-      "variant": "level_up",
-      "result": "silvally rks_memory=water",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:mystic_water"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallygrass",
-      "variant": "level_up",
-      "result": "silvally rks_memory=grass",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:miracle_seed"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallyelectric",
-      "variant": "level_up",
-      "result": "silvally rks_memory=electric",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:magnet"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallypsychic",
-      "variant": "level_up",
-      "result": "silvally rks_memory=psychic",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:twisted_spoon"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallyice",
-      "variant": "level_up",
-      "result": "silvally rks_memory=ice",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:never_melt_ice"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallydragon",
-      "variant": "level_up",
-      "result": "silvally rks_memory=dragon",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:dragon_fang"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallydark",
-      "variant": "level_up",
-      "result": "silvally rks_memory=dark",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:black_glasses"
-        }          
-      ]
-    },
-    {
-      "id": "silvally_silvallyfairy",
-      "variant": "level_up",
-      "result": "silvally rks_memory=fairy",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:fairy_feather"
-        }          
-      ]
-    }
-  ],
+	    {
+		"id": "silvally_silvallybug",
+		"variant": "level_up",
+		"result": "silvally rks_memory=bug",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:bugmemory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallydark",
+		"variant": "level_up",
+		"result": "silvally rks_memory=dark",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:darkmemory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallydragon",
+		"variant": "level_up",
+		"result": "silvally rks_memory=dragon",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:dragonmemory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallyelectric",
+		"variant": "level_up",
+		"result": "silvally rks_memory=electric",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:electricmemory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallyfairy",
+		"variant": "level_up",
+		"result": "silvally rks_memory=fairy",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:fairymemory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallyfighting",
+		"variant": "level_up",
+		"result": "silvally rks_memory=fighting",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:fightingmemory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallyfire",
+		"variant": "level_up",
+		"result": "silvally rks_memory=fire",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:firememory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallyflying",
+		"variant": "level_up",
+		"result": "silvally rks_memory=flying",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:flyingmemory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallyghost",
+		"variant": "level_up",
+		"result": "silvally rks_memory=ghost",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:ghostmemory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallygrass",
+		"variant": "level_up",
+		"result": "silvally rks_memory=grass",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:grassmemory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallyground",
+		"variant": "level_up",
+		"result": "silvally rks_memory=ground",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:groundmemory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallyice",
+		"variant": "level_up",
+		"result": "silvally rks_memory=ice",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:icememory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallypoison",
+		"variant": "level_up",
+		"result": "silvally rks_memory=poison",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:poisonmemory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallypsychic",
+		"variant": "level_up",
+		"result": "silvally rks_memory=psychic",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:psychicmemory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallyrock",
+		"variant": "level_up",
+		"result": "silvally rks_memory=rock",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:rockmemory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallysteel",
+		"variant": "level_up",
+		"result": "silvally rks_memory=steel",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:steelmemory"
+          }          
+		]
+		},
+		{
+		"id": "silvally_silvallywater",
+		"variant": "level_up",
+		"result": "silvally rks_memory=water",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:watermemory"
+          }          
+		]
+		}
+    ],
   "forms": [
     {
       "name": "Fighting",
@@ -424,7 +414,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-fighting.desc"
       ],
       "labels": [
         "gen7",
@@ -566,20 +556,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallyfighting_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallyfighting_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -589,7 +579,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-flying.desc"
       ],
       "labels": [
         "gen7",
@@ -731,20 +721,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallyflying_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallyflying_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -754,7 +744,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-poison.desc"
       ],
       "labels": [
         "gen7",
@@ -896,20 +886,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallypoison_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallypoison_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -919,7 +909,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-ground.desc"
       ],
       "labels": [
         "gen7",
@@ -1061,20 +1051,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallyground_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallyground_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -1084,7 +1074,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-rock.desc"
       ],
       "labels": [
         "gen7",
@@ -1226,20 +1216,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallyrock_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallyrock_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -1249,7 +1239,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-bug.desc"
       ],
       "labels": [
         "gen7",
@@ -1391,20 +1381,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallybug_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallybug_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -1414,7 +1404,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-ghost.desc"
       ],
       "labels": [
         "gen7",
@@ -1556,20 +1546,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallyghost_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallyghost_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -1579,7 +1569,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-steel.desc"
       ],
       "labels": [
         "gen7",
@@ -1721,20 +1711,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallysteel_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallysteel_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -1744,7 +1734,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-fire.desc"
       ],
       "labels": [
         "gen7",
@@ -1886,20 +1876,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallyfire_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallyfire_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -1909,7 +1899,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-water.desc"
       ],
       "labels": [
         "gen7",
@@ -2051,20 +2041,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallywater_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallywater_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -2074,7 +2064,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-grass.desc"
       ],
       "labels": [
         "gen7",
@@ -2216,20 +2206,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallygrass_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallygrass_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -2239,7 +2229,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-electric.desc"
       ],
       "labels": [
         "gen7",
@@ -2381,20 +2371,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallyelectric_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallyelectric_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -2404,7 +2394,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-psychic.desc"
       ],
       "labels": [
         "gen7",
@@ -2546,20 +2536,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallypsychic_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallypsychic_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -2569,7 +2559,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-ice.desc"
       ],
       "labels": [
         "gen7",
@@ -2711,20 +2701,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallyice_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallyice_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -2734,7 +2724,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-dragon.desc"
       ],
       "labels": [
         "gen7",
@@ -2876,20 +2866,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallydragon_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallydragon_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -2899,7 +2889,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-dark.desc"
       ],
       "labels": [
         "gen7",
@@ -3041,20 +3031,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallydark_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallydark_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     },
     {
@@ -3064,7 +3054,7 @@
       "height": 23,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.silvally-typed.desc"
+        "cobblemon.species.silvally-fairy.desc"
       ],
       "labels": [
         "gen7",
@@ -3206,20 +3196,20 @@
         "tutor:zenheadbutt"
       ],
       "evolutions": [
-        {
-          "id": "silvallyfairy_silvally",
-          "variant": "level_up",
-          "result": "silvally rks_memory=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+		{
+		"id": "silvallyfairy_silvally",
+		"variant": "level_up",
+		"result": "silvally rks_memory=normal",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [
+		  {
+			"variant": "held_item",
+			"itemCondition": "antithetic:blankmemory"
+          }          
+		]
+		}
+	  ],
       "battleOnly": false
     }
   ]

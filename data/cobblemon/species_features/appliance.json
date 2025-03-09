@@ -3,10 +3,10 @@
   "keys": [
     "appliance"
   ],
-  "default": "none",
+  "default": "bulb",
   "choices": [
-    "none",
-    "heat",
+    "bulb",
+	"heat",
     "wash",
     "frost",
     "fan",

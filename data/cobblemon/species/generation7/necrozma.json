@@ -69,11 +69,11 @@
         "quantityRange": "3-6"
       },
       {
-        "item": "minecraft:nether_star",
-        "percentage": 75.0
+        "item": "cobblemon:twisted_spoon",
+        "percentage": 50.0
       },
       {
-        "item": "cobblemon:twisted_spoon",
+        "item": "minecraft:nether_star",
         "percentage": 50.0
       },
       {
@@ -315,6 +315,7 @@
         "72:photongeyser",
         "80:autotomize",
         "88:prismaticlaser",
+        "form_change:sunsteelstrike",
         "tm:aerialace",
         "tm:allyswitch",
         "tm:bodyslam",
@@ -444,9 +445,8 @@
           "learnableMoves": [],
           "requirements": [
             {
-              "variant": "party_member",
-              "target": "solgaleo",
-              "contains": true
+              "variant": "held_item",
+              "itemCondition": "antithetic:dnasplicer"
             }
           ]
         }
@@ -514,6 +514,7 @@
         "72:photongeyser",
         "80:gravity",
         "88:prismaticlaser",
+        "form_change:moongeistbeam",
         "tm:aerialace",
         "tm:allyswitch",
         "tm:bodyslam",
@@ -643,9 +644,8 @@
           "learnableMoves": [],
           "requirements": [
             {
-              "variant": "party_member",
-              "target": "lunala",
-              "contains": true
+              "variant": "held_item",
+              "itemCondition": "antithetic:dnasplicer"
             }
           ]
         }
@@ -710,7 +710,7 @@
           "requirements": [
             {
               "variant": "held_item",
-              "itemCondition": "minecraft:beacon"
+              "itemCondition": "antithetic:dnasplicer"
             }
           ]
         }
