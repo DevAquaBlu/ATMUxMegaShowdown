@@ -69,11 +69,11 @@
         "quantityRange": "3-6"
       },
       {
-        "item": "cobblemon:twisted_spoon",
-        "percentage": 50.0
+        "item": "minecraft:nether_star",
+        "percentage": 75.0
       },
       {
-        "item": "minecraft:nether_star",
+        "item": "cobblemon:twisted_spoon",
         "percentage": 50.0
       },
       {
@@ -223,35 +223,6 @@
     "tutor:trick",
     "tutor:xscissor"
   ],
-  "evolutions": [
-    {
-      "id": "necrozma_necrozmaduskmane",
-      "variant": "level_up",
-      "result": "necrozma prism_fusion=dusk",
-      "consumeHeldItem": false,
-      "learnableMoves": ["sunsteelstrike"],
-      "requirements": [
-        {
-          "variant": "party_member",
-          "target": "solgaleo",
-          "contains": true
-        }
-      ]
-    },
-    {
-      "id": "necrozma_necrozmadawnwings",
-      "variant": "level_up",
-      "result": "necrozma prism_fusion=dawn",
-      "consumeHeldItem": false,
-      "learnableMoves": ["moongeistbeam"],
-      "requirements": [
-        {
-          "variant": "party_member",
-          "target": "lunala",
-          "contains": true
-        }
-      ]
-    }
-  ],
-  "forms": [],
+  "evolutions": [],
+  "forms": []
 }
