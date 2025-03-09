@@ -622,5 +622,100 @@
         "tutor:trick",
         "tutor:xscissor"
       ],
-      "evolutions": []
+      "evolutions": [
+        {
+          "id": "necrozmadawnwings_necrozmaultra",
+          "variant": "level_up",
+          "result": "necrozma prism_fusion=ultra",
+          "consumeHeldItem": false,
+          "learnableMoves": ["photongeyser"],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "minecraft:beacon"
+            }
+          ]
+        },
+        {
+          "id": "necrozmadawnwings_necrozma",
+          "variant": "level_up",
+          "result": "necrozma prism_fusion=none",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "antithetic:dnasplicer"
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Ultra",
+      "primaryType": "psychic",
+      "secondaryType": "dragon",
+      "maleRatio": -1,
+      "height": 75,
+      "weight": 2300,
+      "baseScale": 1,
+      "hitbox": {
+        "width": 3.25,
+        "height": 9,
+        "fixed": false
+      },
+      "pokedex": [
+        "cobblemon.species.necrozma-ultra.desc"
+      ],
+      "labels": [
+        "gen7",
+        "legendary",
+        "restricted",
+        "ultra_burst"
+      ],
+      "aspects": [
+        "ultra-fusion"
+      ],
+      "abilities": [
+        "neuroforce",
+        "h:neuroforce"
+      ],
+      "baseStats": {
+        "hp": 97,
+        "attack": 167,
+        "defence": 97,
+        "special_attack": 167,
+        "special_defence": 97,
+        "speed": 129
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "baseExperienceYield": 377,
+      "catchRate": 255,
+      "dynamaxBlocked": true,
+      "evolutions": [
+        {
+          "id": "necrozmaultra_necrozma",
+          "variant": "level_up",
+          "result": "necrozma prism_fusion=none",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "antithetic:dnasplicer"
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
 }
